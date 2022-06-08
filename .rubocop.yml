@@ -1,0 +1,48 @@
+require:
+  rubocop-rails
+
+AllCops:
+  EnabledByDefault: true
+  TargetRubyVersion: 3.1.2
+  TargetRailsVersion: 7.0.3
+  Exclude:
+    - 'app/views/**/*.slim'
+    - 'db/migrate/*'
+
+Bundler/GemVersion:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Copyright:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DocumentationMethod:
+  Enabled: false
+
+Style/DisableCopsWithinSourceCodeDirective:
+  Enabled: false
+
+# Style/Copyright:
+#   Enabled: false
+
+# Layout/HashAlignment:
+#   Enabled: true
+#   EnforcedHashRocketStyle: table
+#   EnforcedColonStyle: table
+
+# Lint/NumberConversion:
+#   Enabled: false
+
+# Metrics/MethodLength:
+#   Max: 16
+
+# Naming/VariableNumber:
+#   EnforcedStyle: snake_case
+
+# Metrics/ClassLength:
+#   Max: 140
