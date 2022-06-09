@@ -1,10 +1,8 @@
 # Doorkeeper
 
-Documentação: https://github.com/doorkeeper-gem/doorkeeper
+Documentação da lib: https://github.com/doorkeeper-gem/doorkeeper
 
-Projeto de implementação: ‣
-
-[Doorkeeper Guides](https://doorkeeper.gitbook.io/guides/)
+Guia de aplicação: [Doorkeeper Guides](https://doorkeeper.gitbook.io/guides/)
 
 - Passos para implementar a autenticação com o doorkeeper:
     1. Utilizar a `gem 'doorkeeper'`
